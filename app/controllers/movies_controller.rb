@@ -12,7 +12,7 @@ class MoviesController < ApplicationController
 			redirect_to "/movies"
 		else
 			flash[:errors] = movie.errors.full_messages
-			redirect_to "/movie/new"
+			redirect_to "/movies/new"
 		end
 	end
 
