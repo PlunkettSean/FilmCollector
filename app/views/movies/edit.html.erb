@@ -16,7 +16,7 @@
 	</p>
 	<p>
 		<label>Release Date</label>
-		<input type="text" name="movie[release_date]" value="<%= @movie.release_date %>">
+		<input type="text" name="movie[release_date]" value="<%= @movie.release_date.srtftime("%Y-%m-%d") %>">
 	</p>
 	<input type="submit" name="Update">
 </form>
