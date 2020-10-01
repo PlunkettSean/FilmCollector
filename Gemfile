@@ -41,7 +41,6 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
-gem 'hirb', '~> 0.7.3'
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
@@ -49,3 +48,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'hirb', '~> 0.7.3'
+
+gem 'sassc', '~> 2.1.0'
+gem 'bootstrap', '~> 4.5', '>= 4.5.2'
+gem 'jquery-rails'
